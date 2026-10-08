@@ -41,6 +41,11 @@ header h1 {
     
 }
 
+header p {
+    font-size: 10.4px;
+    color: white;
+}
+
 nav {
 
     padding: 10px;
