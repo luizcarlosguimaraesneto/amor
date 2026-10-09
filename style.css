@@ -64,11 +64,21 @@ h1 {
     font-family: "Fredoka";
 }
 
+h2 {
+
+    font-family: var(--font-p);
+}
+
 p {
     font-family: var(--font-p);
     line-height:24px;
     font-weight: 300;
 
+
+}
+
+main {
+    padding: 17px;
 
 }
 
