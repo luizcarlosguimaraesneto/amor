@@ -79,12 +79,21 @@ p {
 
 main {
     padding: 17px;
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
 
 }
 
 
 body {
 
+
+    height: 100vh;
+    background-image: url(img/1304927.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: co
 
 
 
@@ -99,6 +108,9 @@ nav a {
     font-family: var(--font-p);
     color: var(--cor01);
     font-weight: 700;
+    
+
+}
 
 nav a:hover {
 
@@ -110,6 +122,7 @@ nav a:hover {
 
 
 img {
+    width: 100%;
 
 }
 
