@@ -89,11 +89,11 @@ main {
 body {
 
 
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(img/1304927.jpg);
-    background-position: center top;
+    background-position: left 50%;
     background-repeat: no-repeat;
-    background-size: co
+    background-size: cover;
 
 
 
