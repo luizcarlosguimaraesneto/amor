@@ -152,8 +152,8 @@ div#fotoum {
 
 
 .poesia02 {
-    height: 100vh;
-    background: black url(img/1304930.png) 100% 100% no-repeat fixed;
+    height: 85vh;
+    background: black url(img/1304930.png) center left 59% no-repeat fixed;
     background-color: black;
     padding: 53px;
     background-size: cover;
