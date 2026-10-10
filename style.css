@@ -141,8 +141,27 @@ div#fotoum {
 
     padding: 50px;
     
+    
 
 
 
 
+}
+
+
+.poesia02 {
+    height: 100vh;
+    background: black url(img/1304966.jpg) 100% 100% no-repeat fixed;
+    background-color: black;
+    padding: 53px;
+    background-size: cover;
+
+
+
+}
+
+article#poesia02 {
+
+    padding: 20px;
+    background-color: red;
 }
