@@ -80,9 +80,11 @@ p {
 main {
     padding: 17px;
     background-color: white;
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
     margin-top: 351px;
+    border-radius: 20px;
+    margin-bottom: 105px;
 
 }
 
@@ -164,4 +166,5 @@ article#poesia02 {
 
     padding: 20px;
     background-color: red;
+    max-width: 500px;
 }
