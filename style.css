@@ -83,6 +83,14 @@ main {
 }
 
 
+body {
+
+
+
+
+
+}
+
 nav a {
     padding: 9px;
     background-color: white;
@@ -91,12 +99,37 @@ nav a {
     font-family: var(--font-p);
     color: var(--cor01);
     font-weight: 700;
+
+nav a:hover {
+
+    background-color: white;
+}
     
 
 
-}
+
 
 img {
 
-    width: 100%;
+}
+
+
+.foto01 {
+
+    background-image: url(img/img03.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+div#fotoum {
+
+    padding: 50px;
+    
+
+
+
+
 }
