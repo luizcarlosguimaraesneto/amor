@@ -82,6 +82,7 @@ main {
     background-color: white;
     max-width: 400px;
     margin: auto;
+    margin-top: 351px;
 
 }
 
@@ -90,9 +91,8 @@ body {
 
 
     min-height: 100vh;
-    background-image: url(img/1304927.jpg);
-    background-position: left 50%;
-    background-repeat: no-repeat;
+    
+    background: black url(img/1304927.jpg) left center no-repeat fixed;
     background-size: cover;
 
 
