@@ -216,4 +216,6 @@ article#poesia02 {
     background-color: #ffffff;
     max-width: 500px;
     font-family: var(--font_principal);
+    margin: auto;
+    border-radius: 10px;
 }
