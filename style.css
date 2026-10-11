@@ -227,3 +227,11 @@ article#poesia02 {
     background-color: white;
     width: auto;
 }
+
+
+footer {
+
+    padding: 25px;
+    background: black;
+    color: white;
+}
