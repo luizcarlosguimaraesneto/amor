@@ -30,6 +30,7 @@
     --cor01: #FF8FAB;
     --cor02: #C9184A;
     --font-p: "Lato";
+    --font_principal: "zoo"
     
 }
 
@@ -67,7 +68,8 @@ nav {
 
 h1 {
 
-    font-family: "Fredoka";
+    font-family: var(--font_principal);
+    color: var(--cor02);
 }
 
 h2 {
@@ -98,7 +100,7 @@ main {
 body {
 
 
-    min-height: 100vh;
+    height: 100vh;
     
     background: black url(img/1304927.jpg) left 9% center no-repeat fixed;
     background-size: cover;
