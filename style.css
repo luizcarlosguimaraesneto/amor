@@ -188,6 +188,7 @@ div#fotoum {
     background-color: black;
     padding: 53px;
     background-size: cover;
+    
 
 
 
@@ -196,6 +197,7 @@ div#fotoum {
 article#poesia02 {
 
     padding: 20px;
-    background-color: red;
+    background-color: #ffffff;
     max-width: 500px;
+    font-family: var(--font_principal);
 }
