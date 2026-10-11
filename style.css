@@ -3,10 +3,16 @@
 
 @font-face {
         font-family:"love" ;
-        src: url(fontes/LOVELY.otf);
+        src: url(fontes/zootopia-jposterscomar-font/ZootopiaJposterscomar-qJ80.ttf);
         
       }
 
+
+@font-face {
+    font-family:"zoo" ;
+    src: url(fontes/zootopia-jposterscomar-font/ZootopiaJposterscomar-qJ80.ttf);
+}
+  
     
 
 
@@ -38,7 +44,7 @@ header {
 
 
 header h1 {
-    font-family: "Fredoka";
+    font-family: "zoo";
     font-size: 74px;
     color: white;
     
