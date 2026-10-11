@@ -130,7 +130,12 @@ nav a:hover {
 }
     
 
+main article p {
 
+    font-family: "Dekko";
+    font-size: 23px;
+    line-height: 49px;
+}
 
 
 img {
