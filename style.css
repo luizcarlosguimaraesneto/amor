@@ -94,13 +94,25 @@ h2 {
     font-family: var(--font-p);
 }
 
-p {
+main article p  {
     font-family: var(--font-p);
     line-height:24px;
     font-weight: 300;
     border-radius: 10px;
     background-color: #fce4ec;
     padding: 10px;
+
+
+p {
+
+    font-family: var(--font-p);
+    line-height:24px;
+    font-weight: 300;
+    border-radius: 10px;
+
+
+
+}
 
 
 }
