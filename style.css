@@ -229,8 +229,9 @@ section.alma {
     
 
     padding: 50px;
-    background: black url(img/00007.jpg) center center no-repeat fixed;
+    background: black url(img/00007.jpg) center 124px no-repeat fixed;
     background-size: cover;
+    padding-bottom: 169px;
 
     
 
