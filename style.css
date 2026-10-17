@@ -197,16 +197,27 @@ div#fotoum {
 }
 
 
+section.poesia02 h2 {
+    font-family: var(--font-p);
+    padding-bottom: 20px;
+
+}
+
+
+section.poesia02 p {
+    font-family: var(--font-p);
+    padding-top: 20px;
+    
+}
+
+
+
 .poesia02 {
     height: 85vh;
     background: black url(img/meliodas.png) center left 59% no-repeat fixed;
     background-color: black;
     padding: 53px;
     background-size: cover;
-
-    
-
-
 
 }
 
@@ -232,6 +243,7 @@ section.alma {
     background: black url(img/00007.jpg) center 124px no-repeat fixed;
     background-size: cover;
     padding-bottom: 169px;
+    padding-top: 91px;
 
     
 
