@@ -223,6 +223,9 @@ article#poesia02 {
 
 
 section.alma {
+    padding-top: 10vh;
+    padding-bottom: 50vh;
+
     padding: 50px;
     background: black url(img/00007.jpg) center center no-repeat fixed;
     background-size: cover;
