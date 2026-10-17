@@ -220,11 +220,13 @@ article#poesia02 {
     border-radius: 10px;
 }
 
-
-
-section.alma {
+section {
     padding-top: 10vh;
     padding-bottom: 50vh;
+}
+
+section.alma {
+    
 
     padding: 50px;
     background: black url(img/00007.jpg) center center no-repeat fixed;
