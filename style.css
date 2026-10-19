@@ -286,3 +286,49 @@ section.nome p strong {
     padding: 5px;
     border-radius: 8px;
 }
+
+audio {
+
+    background-color: #C9184A;
+    border-radius: 30px;
+
+
+}
+
+
+.player-romantico {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 22px;
+  background: #fff0f4;
+  color: #c9184a;
+  box-shadow: 0 5px 15px #c9184a20;
+}
+
+.player-romantico button {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50%;
+  background: #c9184a;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.player-romantico span {
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+#progresso {
+  flex: 1;
+  min-width: 0;
+  accent-color: #c9184a;
+  cursor: pointer;
+}
