@@ -73,6 +73,13 @@
 
          <section class="imagem">
 
+          <audio controls src="audios/audio01.mp3"></audio>
+
+
+          <audio controls preload="metadata">
+            <source src="audio/musica.mp3" type="audio/mp3">
+          </audio>
+
 
           <div class="player-romantico">
 
@@ -90,8 +97,8 @@
 
           <span id="duracao">0:00</span>
 
-          <audio id="musica" preload="metadata">
-            <source src="audios/audio01.mp3" type="audio/mpeg">
+          <audio preload="metadata">
+            <source src="audios/audio01.mp3">
           </audio>
         </div>
           
@@ -206,71 +213,12 @@
 
 
     <script>
-        const musica = document.getElementById("musica");
-        const playBtn = document.getElementById("playBtn");
-        const progresso = document.getElementById("progresso");
-        const tempoAtual = document.getElementById("tempoAtual");
-        const duracao = document.getElementById("duracao");
+           
 
-        function formatarTempo(segundos) {
-          if (!Number.isFinite(segundos)) return "0:00";
-          const min = Math.floor(segundos / 60);
-          const seg = Math.floor(segundos % 60);
-          return ${min}:${String(seg).padStart(2, "0")};
-        }
-
-        playBtn.addEventListener("click", async () => {
-          if (musica.paused) {
-            try {
-              await musica.play();
-            } catch (erro) {
-              console.error("Não foi possível reproduzir:", erro);
-            }
-          } else {
-            musica.pause();
-          }
-        });
-
-        musica.addEventListener("play", () => {
-          playBtn.textContent = "❚❚";
-        });
-
-        musica.addEventListener("pause", () => {
-          playBtn.textContent = "▶️";
-        });
-
-        musica.addEventListener("loadedmetadata", () => {
-          duracao.textContent = formatarTempo(musica.duration);
-        });
-
-        musica.addEventListener("timeupdate", () => {
-          tempoAtual.textContent = formatarTempo(musica.currentTime);
-          progresso.value = musica.duration
-            ? (musica.currentTime / musica.duration) * 100
-            : 0;
-        });
-
-        progresso.addEventListener("input", () => {
-          if (Number.isFinite(musica.duration)) {
-            musica.currentTime =
-              (Number(progresso.value) / 100) * musica.duration;
-          }
-        });
-
-        musica.addEventListener("error", () => {
-            console.log("Erro no áudio:", musica.error);
-            console.log("Arquivo:", musica.currentSrc);
-        });
-
-        musica.addEventListener("canplay", () => {
-            console.log("A música está pronta para tocar!");
-        });
-
-
-
-
+     
+            
     </script>
             
     
 </body>
-</html>
+</htmll
