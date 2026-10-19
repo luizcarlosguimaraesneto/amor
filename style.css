@@ -35,8 +35,8 @@
 }
 
 header {
-    padding: 10px;
-    padding: 12px;
+
+    padding: 30px;
     text-align: center;
     background-image: linear-gradient(7deg, var(--cor01), var(--cor02));
     
@@ -45,9 +45,11 @@ header {
 
 
 header h1 {
+    
     font-family: "zoo";
     font-size: 44px;
     color: white;
+    font-weight: 300;
     
 }
 
